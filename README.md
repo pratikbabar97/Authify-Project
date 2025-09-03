@@ -28,25 +28,25 @@ It covers real-world authentication features like user registration, login, form
 
 ---
 
-### 1. Clone the Repository
+## 1. Clone the Repository
 
 ```bash
 git clone https://github.com/username/project-name.git
 
-### Frontend Setup (React 19)
+## Frontend Setup (React 19)
 ```bash
 cd authify-porject/authify-frontend
 bun install
 bun run dev
 
-### Backend Setup (Spring Boot)
+## Backend Setup (Spring Boot)
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/auth_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 jwt.secret=your_jwt_secret
 
-### Features
+## Features
 Full stack architecture: React frontend + Spring Boot backend
 
 User registration and login
@@ -63,7 +63,7 @@ Role-based access (optional enhancement)
 
 Responsive design for mobile and desktop
 
-### Technologies Used
+## Technologies Used
 #### Frontend
 
 React 19
