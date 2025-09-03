@@ -19,7 +19,7 @@ It covers real-world authentication features like user registration, login, form
 
 ## Installation
 
-### Prerequisites
+## Prerequisites
 
 - Node.js and Bun
 - Java 17+
@@ -28,24 +28,25 @@ It covers real-world authentication features like user registration, login, form
 
 ---
 
-## 1. Clone the Repository
+## Clone the Repository
 
 ```bash
 git clone https://github.com/username/project-name.git
-
+```
 ## Frontend Setup (React 19)
+
 ```bash
 cd authify-porject/authify-frontend
 bun install
 bun run dev
-
+```
 ## Backend Setup (Spring Boot)
 ```bash
 spring.datasource.url=jdbc:mysql://localhost:3306/auth_db
 spring.datasource.username=root
 spring.datasource.password=yourpassword
 jwt.secret=your_jwt_secret
-
+```
 ## Features
 Full stack architecture: React frontend + Spring Boot backend
 
@@ -64,7 +65,7 @@ Role-based access (optional enhancement)
 Responsive design for mobile and desktop
 
 ## Technologies Used
-#### Frontend
+## Frontend
 
 React 19
 
@@ -76,7 +77,7 @@ Bun (package manager)
 
 HTML5, CSS3 & Bootstrap
 
-#### Backend
+## Backend
 
 Java 17
 
